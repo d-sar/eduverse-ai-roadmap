@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -6,11 +5,11 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription, SheetFooter } from '@/components/ui/sheet';
-import { 
-  ReactFlow, 
-  Controls, 
-  Background, 
-  useNodesState, 
+import {
+  ReactFlow,
+  Controls,
+  Background,
+  useNodesState,
   useEdgesState,
   MiniMap,
   Panel
